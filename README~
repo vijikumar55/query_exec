@@ -1,0 +1,21 @@
+Query Exec Gem:
+
+This gem is used to execute SQL commands in our Rails application.
+
+Installation:
+
+gem install query_exec
+
+or
+
+add gem 'query_exec'  to your gem file.
+
+
+Example of Usage:
+
+QueryExec.run('select * from users') # gives all the users from users table
+
+QueryExec.run('update users set name='xxx' where id=2')  # updates user with name='xxx' which is having id 2.
+
+Using this gem we can do all the SQL operatons.
+
